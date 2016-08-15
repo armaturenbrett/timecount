@@ -1,0 +1,63 @@
+.timecount id="#{widget_id}" data-preload="#{WidgetDatum.find('timecount').data.to_json}"
+  .counter-details
+    | {{#display.seconds}}
+    .seconds
+      div
+        | {{display.seconds}}
+      div
+        | Sekunden
+    | {{/display.seconds}}
+
+    | {{#display.minutes}}
+    .minutes
+      div
+        | {{display.minutes}}
+      div
+        | Minuten
+    | {{/display.minutes}}
+
+    | {{#display.hours}}
+    .hours
+      div
+        | {{display.hours}}
+      div
+        | Stunden
+    | {{/display.hours}}
+
+    | {{#display.days}}
+    .days
+      div
+        | {{display.days}}
+      div
+        | Tage
+    | {{/display.days}}
+
+    | {{#display.months}}
+    .months
+      div
+        | {{display.months}}
+      div
+        | Monate
+    | {{/display.months}}
+
+    | {{#display.years}}
+    .years
+      div
+        | {{display.years}}
+      div
+        | Jahre
+    | {{/display.years}}
+
+    | {{#display.decades}}
+    .decades
+      div
+        | {{display.decades}}
+      div
+        | Jahrzehnte
+    | {{/display.decades}}
+
+  .description
+    .devider
+      i.fa class="fa-{{icon}}"
+    .name
+      | {{name}}

@@ -1,0 +1,43 @@
+.timecount {
+  .counter-details {
+    > div {
+      display: block;
+
+      > div {
+        display: inline-block;
+        width: calc(50% - 0.5vw);
+      }
+
+      > div:first-of-type {
+        font-size: 3vw;
+        font-weight: bold;
+        padding-right: 0.5vw;
+        text-align: right;
+      }
+
+      > div:last-of-type {
+        font-size: 1.85vw;
+        font-weight: initial;
+        padding-left: 0.5vw;
+        text-align: left;
+      }
+    }
+  }
+
+  .description {
+    .devider {
+      border-bottom: 2px solid white;
+      height: 1vw;
+      margin-top: 1vw;
+
+      .fa {
+        padding: 0 1.4vw;
+      }
+    }
+
+    .name {
+      letter-spacing: 0.05vw;
+      margin-top: 1.3vw;
+    }
+  }
+}

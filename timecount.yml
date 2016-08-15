@@ -1,0 +1,14 @@
+timecount:
+  - dateTime: '05.07.2016 11:37:48 MEST'
+    icon: 'birthday-cake'
+    name: 'dashboard git init'
+    widgetId: 'exampleTimecount'
+    display:
+      seconds: false
+      minutes: true
+      hours: true
+      days: true
+      months: true
+      years: false
+      decades: false
+
