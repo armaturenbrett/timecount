@@ -5,7 +5,7 @@
       div
         | {{display.seconds}}
       div
-        | Sekunden
+        = t('timecount.seconds')
     | {{/display.seconds}}
 
     | {{#display.minutes}}
@@ -13,7 +13,7 @@
       div
         | {{display.minutes}}
       div
-        | Minuten
+        = t('timecount.minutes')
     | {{/display.minutes}}
 
     | {{#display.hours}}
@@ -21,7 +21,7 @@
       div
         | {{display.hours}}
       div
-        | Stunden
+        = t('timecount.hours')
     | {{/display.hours}}
 
     | {{#display.days}}
@@ -29,7 +29,7 @@
       div
         | {{display.days}}
       div
-        | Tage
+        = t('timecount.days')
     | {{/display.days}}
 
     | {{#display.months}}
@@ -37,7 +37,7 @@
       div
         | {{display.months}}
       div
-        | Monate
+        = t('timecount.months')
     | {{/display.months}}
 
     | {{#display.years}}
@@ -45,7 +45,7 @@
       div
         | {{display.years}}
       div
-        | Jahre
+        = t('timecount.years')
     | {{/display.years}}
 
     | {{#display.decades}}
@@ -53,7 +53,7 @@
       div
         | {{display.decades}}
       div
-        | Jahrzehnte
+        = t('timecount.decades')
     | {{/display.decades}}
 
   .description
