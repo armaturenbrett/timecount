@@ -1,0 +1,9 @@
+en:
+  timecount:
+    seconds: seconds
+    minutes: minutes
+    hours: hours
+    days: days
+    months: months
+    years: years
+    decades: decades
