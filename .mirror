@@ -6,4 +6,4 @@ $SSH_MIRROR_KEY
 EOF
 chmod 0600 ~/.ssh/id_rsa
 ssh-keyscan -H github.com >> ~/.ssh/known_hosts
-git push -f git@github.com:armaturenbrett/logations.git HEAD:master
+git push -f git@github.com:armaturenbrett/timecount.git HEAD:master
